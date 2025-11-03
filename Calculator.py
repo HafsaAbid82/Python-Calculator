@@ -12,6 +12,7 @@ try:
     result = 0
 except:
     print("Invalid Input. Please enter an integer.")
+    exit()
 else:
     if (option in [1,2,3,4,5,6]):
         try:
